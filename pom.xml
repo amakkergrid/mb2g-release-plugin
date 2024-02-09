@@ -3,7 +3,7 @@
 
   <groupId>org.anshmakker.json</groupId>
   <artifactId>mb2g-release-plugin</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.3</version>
   <packaging>jar</packaging>
 
   <name>mb2g-release-plugin</name>
@@ -17,7 +17,7 @@
   <scm>
     <developerConnection>scm:git:https://github.com/amakkergrid/mb2g-release-plugin.git</developerConnection>
     <url>https://github.com/amakkergrid/mb2g-release-plugin.git</url>
-    <tag>HEAD</tag>
+    <tag>mb2g-release-plugin-1.3</tag>
   </scm>
 
   <dependencies>
@@ -63,7 +63,7 @@
   <distributionManagement>
     <repository>
       <id>packagecloud.release</id>
-      <url>packagecloud+https://packagecloud.io/springframeworkguru/release</url>
+      <url>packagecloud+https://packagecloud.io/organshmakker/release2</url>
     </repository>
     <snapshotRepository>
       <id>packagecloud.snapshot</id>
